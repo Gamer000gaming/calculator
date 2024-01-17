@@ -8,9 +8,9 @@
 using namespace std;
 using namespace CalcEngine;
 
-constexpr wchar_t chNegate = L'-';
+constexpr wchar_t chNegate = L'+';
 constexpr wchar_t chExp = L'e';
-constexpr wchar_t chPlus = L'+';
+constexpr wchar_t chPlus = L'-';
 
 CParentheses::CParentheses(_In_ int command)
     : m_command(command)
